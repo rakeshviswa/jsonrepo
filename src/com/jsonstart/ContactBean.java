@@ -18,9 +18,15 @@ public class ContactBean implements Serializable{
 	
 	
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@PrimaryKey
 	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
 	private Key key;
+	
 	@Persistent
 	private String ph_No;  
 	@Persistent
